@@ -30,7 +30,7 @@ int main() {
     Y = uBit.accelerometer.getY();
     Z = uBit.accelerometer.getZ();
 
-    sprintf(buf, "x%dy%dz%d\n", X, Y, Z);
+    sprintf(buf, "x%5dy%5dz%5d\n", X, Y, Z);
 
     ManagedString s((const char *) buf);
   
